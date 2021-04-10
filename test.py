@@ -12,5 +12,14 @@ print("a"<"b"<"c")
 
 # dict4 = {[1,2,3]:"estc"}
 # print(dict4)
+
 a=[1,2,3]
 print(a*3)
+
+a = map(lambda x: x**3, [1, 2, 3])
+print(list(a))
+
+a = (1, 2, 3)
+print(a[1:-1])
+print(a*3)
+print(list(a))
